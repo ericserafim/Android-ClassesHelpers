@@ -5,7 +5,7 @@
 	//Open address
     Maps.open(MainActivity.this, "English Bay Beach");
 
-	//Open lat and long, with zoom anda caption
+	//Open lat and long, with zoom and caption
 	Maps.open(MainActivity.this, 49.2851114f,-123.1426406f, 100, "English Bay Beach");
 	
 ##Video:
