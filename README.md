@@ -1,24 +1,23 @@
 # Android-ClassesHelpers
-Browser: 
-	Browser.navigateURL(MainActivity.this, "www.linkedin.com/in/ericserafim");
-	
-Maps: 
+##Browser: 
+	Browser.navigateURL(MainActivity.this, "www.linkedin.com/in/ericserafim");	
+##Maps: 
 	//Open address
     Maps.open(MainActivity.this, "English Bay Beach");
 
 	//Open lat and long, with zoom anda caption
 	Maps.open(MainActivity.this, 49.2851114f,-123.1426406f, 100, "English Bay Beach");
 	
-Video:
+##Video:
 	Video.open(MainActivity.this, "https://youtu.be/v-08_7IbGdQ");
 	
-Mailto:
+##Mailto:
 	MailTo.send(MainActivity.this,
                         "ericserafim@gmail.com",
                         "Email via app example",
                         "Body message");
 
-DialogCustom:
+##DialogCustom:
 	DialogCustom.information(MainActivity.this,
                         "Information",
                         "Message",
@@ -71,9 +70,9 @@ DialogCustom:
 			}
 	);
 	
-SnackCustom:
+##SnackCustom:
 	SnackbarCustom.show(fab, "Message for you!!!");
 	
-Phone:
+##Phone:
 	Phone.getIMEI(MainActivity.this)
 	Phone.dial(MainActivity.this, "123456789");
